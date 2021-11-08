@@ -1,0 +1,19 @@
+8289e3c72b5971c4b45bdd2e74afedd4
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.apiClient = void 0;
+
+var _axios = _interopRequireDefault(require("axios"));
+
+var apiClient = _axios.default.create({
+  baseURL: "https://api.spacexdata.com/v3",
+  headers: {
+    "content-type": "application/json"
+  }
+});
+
+exports.apiClient = apiClient;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzIl0sIm5hbWVzIjpbImFwaUNsaWVudCIsImF4aW9zIiwiY3JlYXRlIiwiYmFzZVVSTCIsImhlYWRlcnMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQTs7QUFFTyxJQUFNQSxTQUFTLEdBQUdDLGVBQU1DLE1BQU4sQ0FBYTtBQUNwQ0MsRUFBQUEsT0FBTyxFQUFFLCtCQUQyQjtBQUVwQ0MsRUFBQUEsT0FBTyxFQUFFO0FBQ1Asb0JBQWdCO0FBRFQ7QUFGMkIsQ0FBYixDQUFsQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBheGlvcyBmcm9tIFwiYXhpb3NcIjtcblxuZXhwb3J0IGNvbnN0IGFwaUNsaWVudCA9IGF4aW9zLmNyZWF0ZSh7XG4gIGJhc2VVUkw6IFwiaHR0cHM6Ly9hcGkuc3BhY2V4ZGF0YS5jb20vdjNcIixcbiAgaGVhZGVyczoge1xuICAgIFwiY29udGVudC10eXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiLFxuICB9LFxufSk7XG4iXX0=

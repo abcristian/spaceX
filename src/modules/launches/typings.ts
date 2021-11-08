@@ -1,4 +1,5 @@
 export interface Launch {
+  _id: string;
   flight_number: number;
   mission_name: string;
   mission_id?: (string | null)[] | null;
@@ -134,12 +135,12 @@ export interface Timeline {
   meco?: number | null;
   stage_sep?: number | null;
   second_stage_ignition?: number | null;
-  'seco-1'?: number | null;
+  "seco-1"?: number | null;
   dragon_separation?: number | null;
   dragon_solar_deploy?: number | null;
   dragon_bay_door_deploy?: number | null;
   fairing_deploy?: number | null;
   payload_deploy?: number | null;
   second_stage_restart?: number | null;
-  'seco-2'?: number | null;
+  "seco-2"?: number | null;
 }
